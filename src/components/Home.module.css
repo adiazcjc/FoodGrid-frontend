@@ -1,0 +1,12 @@
+.home {
+  background: #FFEFBA;
+  background: -webkit-linear-gradient(to left, #FFFFFF, #FFEFBA);
+  background: linear-gradient(to left, #FFFFFF, #FFEFBA);
+}
+
+.cards {
+  display: grid;
+  grid-gap: 4%;
+  grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+}
+
